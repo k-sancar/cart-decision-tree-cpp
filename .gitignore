@@ -1,69 +1,56 @@
-# Prerequisites
-*.d
+# Ignore specific compiled binaries (both extensionless and .exe)
+add_cases
+clear_table
+program
+sqldiff
+sqlite3
+sqlite3_analyzer
+sqlite3_rsync
+*.exe
+*.log
+*.dot
 
-# Compiled Object files
+
+# Prerequisites and Object files
+*.d
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
 
-# Linker files
+# Linker and Debugger files
 *.ilk
-
-# Debugger Files
 *.pdb
+*.dwo
 
-# Compiled Dynamic libraries
+# Compiled libraries
 *.so
 *.dylib
 *.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
+*.mod
+*.smod
 
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# Build and CMake directories
 build/
 Build/
 build-*/
-
-# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 install_manifest.txt
 compile_commands.json
+vcpkg_installed/
+Testing/
+.cache/
 
 # Temporary files
 *.tmp
-*.log
 *.bak
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
