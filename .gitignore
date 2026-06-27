@@ -9,6 +9,7 @@ sqlite3_rsync
 *.exe
 *.log
 *.dot
+*.txt
 
 
 # Prerequisites and Object files
