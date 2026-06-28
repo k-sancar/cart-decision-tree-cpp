@@ -8,8 +8,6 @@ sqlite3_analyzer
 sqlite3_rsync
 *.exe
 *.log
-*.dot
-*.txt
 
 
 # Prerequisites and Object files
@@ -55,3 +53,8 @@ Testing/
 *.tmp
 *.bak
 *.swp
+
+*.dot
+*.txt
+*.csv
+*.sql
