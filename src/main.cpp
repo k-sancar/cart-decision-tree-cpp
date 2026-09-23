@@ -69,7 +69,7 @@ void printAllCasesAsTable(DiagnosisRepositoryORM& db) {
 
 
 void menu() {
-    DiagnosisRepositoryORM db("test.db");
+    DiagnosisRepositoryORM db("data/test.db");
     DecisionTree tree;
     std::unique_ptr<Node> importedTree;
     float confidence_threshold = 0.75f;

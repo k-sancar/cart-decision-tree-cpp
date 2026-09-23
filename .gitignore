@@ -58,3 +58,5 @@ Testing/
 *.txt
 *.csv
 *.sql
+
+.vscode/

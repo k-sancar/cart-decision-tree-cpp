@@ -3,7 +3,7 @@
 
 #include <string>
 #include <vector>
-#include "sqlite_orm.h"
+#include "../external/sqlite_orm.h"
 
 using namespace sqlite_orm;
 
